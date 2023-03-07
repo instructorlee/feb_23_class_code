@@ -12,7 +12,14 @@
 """
 
 def count_water_units(terraces):
-    pass
+    
+    units = 0
+
+    for element in terraces:
+        if int(element) == 1:
+            units += 1
+
+    return units
 
 # tests
 print (f"test 1.1: {'good' if count_water_units('212') == 1 else 'failed'}")
