@@ -1,7 +1,6 @@
 """
     Challenge 2
 
-    - post empty function and tests on Discord
     
     Parameters
         - values will be 1 or 2
@@ -14,6 +13,7 @@
         - Pass all new tests
 """
 
+# 2 1 2 1 2 1    /  2 1 2 1 2 1 1 2
 def count_water_units(terraces):
     pass
 

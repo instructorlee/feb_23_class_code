@@ -15,8 +15,8 @@ def count_water_units(terraces):
     
     units = 0
 
-    for element in terraces:
-        if int(element) == 1:
+    for terrace in terraces:
+        if int(terrace) == 1:
             units += 1
 
     return units
